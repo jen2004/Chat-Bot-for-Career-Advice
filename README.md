@@ -8,6 +8,24 @@ For the complete project requirements, please refer to the “Task 1 Overview.pd
 
 For my complete project report, refer to “Task 1 Reportpdf”.
 
+Scroll down to the bottom of this page for instructions on how to use careerbot.
+
 Here is a GIF of my chatbot in use:
 
 ![Demo of Careerbot](1.gif)
+
+
+How to Use careerbot: An Instruction Guide
+
+1.	Open your browser of choice and go to https://home.pandorabots.com/home.html.
+
+2.	Click “Sign up Free” and follow the steps to create a free account.  If you already have an account, click “Sign In” and enter your login credentials.
+
+3.	Next, go to https://home.pandorabots.com/dash/bot-directory.
+
+4.	Input “Jessica Short Career Bot” in the search bar at the top of the page.  Then, click on the desired chat bot program.
+
+5.	Click the yellow icon at the lower righthand side of the page to open the chatbox message window.
+
+6.	In the chat box, type “hi” to start careerbot.
+
