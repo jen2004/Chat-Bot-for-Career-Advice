@@ -15,7 +15,7 @@ Here is a GIF of my chatbot in use:
 ![Demo of Careerbot](1.gif)
 
 
-How to Use careerbot: An Instruction Guide
+<strong>How to Use careerbot: An Instruction Guide</strong>
 
 1.	Open your browser of choice and go to https://home.pandorabots.com/home.html.
 
