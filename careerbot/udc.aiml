@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+<pattern>^</pattern>
+<template>Howdy, I am CareerBot.  
+I am designed to help you determine 
+the computer science job that suits you best.  
+To begin, please type click "Start" below.
+<button>
+    <text>Start</text>
+    <postback>START</postback>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>START</pattern>
+<template>Are you interested in a tech job where you can 
+utlilize your talents in art, graphic design, and/or storytelling? 
+<button>
+    <text>Yes</text>
+    <postback>Creative Tech Jobs</postback>
+</button>
+<button>
+    <text>No</text>
+    <postback>Other Tech Jobs</postback>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Creative Tech Jobs</pattern>
+<template>Choose one.  Would you prefer creating a new video game or optimizing
+an application to make it enjoyable for a user? 
+<button>
+    <text>Creating a new video game</text>
+    <postback>Video Game Developer</postback>
+</button>
+<button>
+    <text>Optimizing an application to make it enjoyable 
+    for a user.</text> 
+    <postback>UX Designer</postback>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Other Tech Jobs</pattern>
+<template>Choose one.  Which one of these lists of tasks interest you the most?
+<button>
+    <text>Collecting, organizing, and analyzing data on a particular topic.  
+    Looking for patterns.  Utilizing statistical methods.  Then, interpreting 
+    the results and making recommendations based on those results.</text>
+    <postback>Data Analyst</postback>
+</button>
+<button>
+    <text>Creating applications using programming languages like Python,
+    Java, C, and C++.  Troubleshooting and debugging applications.  Testing a 
+    program to see if it works as intended.  Designing the structure of a new 
+    application from the given requirements.  Using algorithms to solve 
+    problems.</text>
+    <postback>Software Engineer</postback>
+</button>
+<button>
+    <text>Protecting an organization’s computer systems, networks, sensitive 
+    information from threats.  Reviewing software, hardware, and networks to 
+    identify potential weaknesses.  Designing security solutions to address 
+    these vunerabilites.  Examples of such security solutions include firewalls, 
+    intrusion detection systems, encryption techniques, access control and
+    permissions, policies, employee training, researching the latest threats.  
+    Intentially hacking a system with persmission to find and fix vunerabilities.
+    </text>
+    <postback>Cybersecurity Engineer</postback>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Video Game Developer</pattern>
+<template>You should consider a career as a video game developer.
+<button>
+    <text>Click here to learn what a Video Game Developer does.</text>
+    <url>https://interviewguy.com/game-developer-job-description/</url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>UX Designer</pattern>
+<template>You should consider a career as a UX Designer.
+<button>
+    <text>Click here to learn what a UX Designer does.</text>
+    <url>https://www.coursera.org/articles/what-does-a-ux-designer-do?msockid=2c29284f9d336ae32f3c3c5a9c166bb2</url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Data Analyst</pattern>
+<template>You should consider a career as a Data Analyst.
+<button>
+    <text>Click here to learn what a Data Analyst does.</text>
+    <url>https://www.careerexplorer.com/careers/data-analyst/</url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Cybersecurity Engineer</pattern>
+<template>You should consider a career as a Cybersecurity Engineer.
+<button>
+    <text>Click here to learn what a Cybersecurity Engineer does.</text>
+    <url>https://www.comptia.org/blog/what-is-a-cybersecurity-engineer</url>
+</button>
+</template>
+</category>
+
+<category>
+<pattern>Software Engineer</pattern>
+<template>You should consider a career as a Software Engineer.
+<button>
+    <text>Click here to learn what a Software Engineer does.</text>
+    <url>https://www.careerexplorer.com/careers/software-engineer/#what-does-a-software-engineer-do</url>
+</button>
+</template>
+</category>
+
+</aiml>
