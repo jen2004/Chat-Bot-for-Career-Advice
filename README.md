@@ -6,7 +6,7 @@ Careerbot is a chatbot designed to assist Computer Science students at Pumpkin S
 
 For the complete project requirements, please refer to the “Task 1 Overview.pdf” file.
 
-For my complete project report, refer to “Task 1 Reportpdf”.
+For my complete project report, refer to “Task 1 Report.pdf”.
 
 Scroll down to the bottom of this page for instructions on how to use careerbot.
 
